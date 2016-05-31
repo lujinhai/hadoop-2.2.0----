@@ -1,0 +1,8 @@
+	查看防火墙状态
+	# service iptables status
+	临时开关闭
+	# service iptables stop
+	重启后生效
+	# chkconfig iptables off 
+	也可以指定345模式下重启不启动
+	#chkconfig --level 345 iptables off
