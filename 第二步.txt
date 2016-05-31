@@ -1,0 +1,7 @@
+	#创建组
+	groupadd hadoop
+	#创建用户并制定和组
+	useradd -g hadoop wlf
+	#创建指定用户的密码
+	passwd wlf 
+
